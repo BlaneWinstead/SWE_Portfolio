@@ -1406,6 +1406,12 @@ iframe {
   }
 }
 
+@media only screen and (min-width: 2100px) {
+  .bg_image--22 {
+    background-size: 70% !important;
+  }
+}
+
 .bg_image--23 {
   background-image: url(../images/bg/bg-image-23.jpg);
 }
@@ -12240,7 +12246,7 @@ Timeline Area
   background-position: center center;
 }
 .bg-image-cta {
-  background-position: bottom 10% left;
+  background-position: center 97%;
 }
 
 .bg-image.bg-image2 {
